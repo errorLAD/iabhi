@@ -6,8 +6,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 <style>
+
 body, html {
   height: 100%;
   font-family: "Inconsolata", sans-serif;
@@ -41,22 +42,16 @@ top: 75%;
 left: 30%;
 text-shadow: 0 20px 25px #2e2e2e;
 }
-</style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134192524-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-134192524-1');
-</script>
+</style>
 
 <body>
 
 <!-- Header with image -->
 <header class="w3-display-container w3-content w3-center w3-hide-large w3-hide-medium " style="max-width:1500px">
-  <img class="w3-image" src="9.gif" alt="Me" width="1500" height="600">
+  <img class="nature" src="5.gif" width="100%">
+<img class="nature" src="16.gif" width="100%">
+<img class="nature" src="9.gif" width="100%">
   <div class="w3-display-middle ">
  <p class="imgtext" style="font-size:30px"><b>Abhishek</b> <small>Mishra</small>
 
@@ -83,7 +78,7 @@ text-shadow: 0 20px 25px #2e2e2e;
   <div class="w3-display-middle w3-padding-large w3-wide w3-text-light-grey w3-center">
     <p class="imgtext" style="font-size:60px">Abhishek Mishra</p>
       <p class="about w3-text-white w3-center w3-middle" style="font-size:20px">  Learner • Developer • Programmer</P>
-	
+	  
         <p class="social w3-hide-small">
         <a href="https://github.com/theabhitech" class=""><i class="fa fa-github"></i></a>
         <a href="index.html" class=""><i class="fa fa-clipboard"></i></a>
@@ -245,12 +240,15 @@ text-shadow: 0 20px 25px #2e2e2e;
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<footer class="w3-center w3- w3-padding-48 w3-large">
   <p>Devlope by <a href="index.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">Abhishek Mishra</a></p>
-  <br><img src="5.png" alt="Me"  height="100">
+  <br>
+  <img class="w3-hide-small" src="1.gif" alt="Me"  height="auto">
+  <img class="w3-hide-midum w3-hide-large" src="1.gif" alt="Me"   height="270">
 </footer>
 
 <script>
+w3.slideshow(".nature", 4000);
 
 // Tabbed Menu
 function openMenu(evt, menuName) {
